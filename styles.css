@@ -1,19 +1,77 @@
 img{
-    width: 10%;
+    width: 80px;
     align-self: center;
+    margin-right: 40px;
 }
 
 .top-bar{
     display: flex;
     /* align-items: center; */
-    justify-content: space-between;
+    align-items: left;
     margin: 20px 20px;
 }
 
 input{
-    width: 75%;
+    width: 540px;
     height: 35px;
     border: 2px solid rgb(216, 214, 214);
     border-radius: 20px;
     padding: 0 50px;
+}
+
+span {
+    margin: 10px;
+}
+.lower-deck {
+    margin: auto 140px;
+    width: 644px;
+}
+
+.right-span{
+    margin-left: 140px;
+}
+hr{
+    height: 0.1px;
+    background: rgb(245, 244, 244);
+}
+
+.container{
+    margin: auto 140px;
+    padding-left: 10px;
+    width: 644px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title{
+    color: rgb(26, 13, 171);
+    margin: 4px auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.url{ 
+    color: #202124;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.short-text{
+    margin: 0px auto;
+    font-size: 14px;
+    color: rgb(77, 81, 86);
+    line-height: 20px;
+}
+#result-stats{
+    color: rgb(112, 117, 122);
+    font-size: 14px;
+}
+.card-section{
+    display: block;
+    box-sizing: border-box;
+}
+.left-col{
+    display: inline-block;
+    vertical-align: top;
+}
+.left-col a{
+    display: block;
+    float: left;
 }
