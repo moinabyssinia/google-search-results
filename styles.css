@@ -68,10 +68,20 @@ hr{
     box-sizing: border-box;
 }
 .left-col{
+    box-sizing: border-box;
+    font-size: 14px;
     display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.right-col{
+    box-sizing: border-box;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 20px;
     vertical-align: top;
 }
-.left-col a{
-    display: block;
-    float: left;
+.left-col a, .right-col a{
+    text-decoration: none;
 }
