@@ -85,3 +85,24 @@ hr{
 .left-col a, .right-col a{
     text-decoration: none;
 }
+.people-ask h3{
+    width: 644px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    border: 2px solid rgb(214, 211, 211);
+    border-bottom-style: none;
+    border-top-style: none;
+}
+.people-ask h4{
+    margin: 0 auto;
+    width: 644px;
+    padding: 10px 10px;
+    border: 2px solid rgb(214, 211, 211);
+    border-bottom-style: none;
+}
+.people-ask{
+    width: 644px;
+    padding: 10px 10px;
+    border-top: 2px solid rgb(214, 211, 211);;
+    border-bottom: 2px solid rgb(214, 211, 211);;
+}
